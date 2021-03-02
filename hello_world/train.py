@@ -1,5 +1,5 @@
 import tensorflow as tf
-from Getting_Started import data_processing, model as m
+from hello_world import data_processing, model as m
 
 
 def train_model(file_name):

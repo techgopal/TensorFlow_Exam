@@ -1,4 +1,4 @@
-#from Getting_Started import train,test
+#from hello_world import train,test
 from fashion_mnist_classification_2 import train
 if __name__ == '__main__':
     ##train.train_model("getting_started")

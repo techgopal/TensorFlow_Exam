@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from Getting_Started import data_processing
+from hello_world import data_processing
 
 
 def test_model():
