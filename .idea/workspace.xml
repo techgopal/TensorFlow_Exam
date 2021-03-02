@@ -25,12 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b98269-ac30-4c75-8009-ac2b99d09b5b" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/Getting_Started/data_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Getting_Started/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Getting_Started/test.py" afterDir="false" />
+    <list default="true" id="e3b98269-ac30-4c75-8009-ac2b99d09b5b" name="Default Changelist" comment="Starting Code">
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classification_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classification_2/data_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classification_2/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classification_2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classification_2/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Getting_Started/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Getting_Started/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +61,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\techg\PycharmProjects\TF_2_PYCHARM" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TF_2_PYCHARM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +112,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TF_2_PYCHARM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fashion_mnist_classification_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fashion_mnist_classification_2/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TF_2_PYCHARM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.train" />
       </list>
@@ -149,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614605070305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting Code">
+      <created>1614614282870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614614282870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,44 +213,59 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Starting Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting Code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614613790021">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="456" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1614613790021" />
-    <state width="1514" height="224" key="GridCell.Tab.0.bottom" timestamp="1614614200372">
+    <state width="1514" height="224" key="GridCell.Tab.0.bottom" timestamp="1614690093829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614614200372" />
-    <state width="1514" height="224" key="GridCell.Tab.0.center" timestamp="1614614200371">
+    <state width="1514" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614690093829" />
+    <state width="1514" height="224" key="GridCell.Tab.0.center" timestamp="1614690093829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614614200371" />
-    <state width="1514" height="224" key="GridCell.Tab.0.left" timestamp="1614614200370">
+    <state width="1514" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614690093829" />
+    <state width="1514" height="224" key="GridCell.Tab.0.left" timestamp="1614690093829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614614200370" />
-    <state width="1514" height="224" key="GridCell.Tab.0.right" timestamp="1614614200372">
+    <state width="1514" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614690093829" />
+    <state width="1514" height="224" key="GridCell.Tab.0.right" timestamp="1614690093829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1514" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614614200372" />
+    <state width="1514" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614690093829" />
     <state x="279" y="78" key="SettingsEditor" timestamp="1614604529885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1614604529885" />
-    <state x="362" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614605874714">
+    <state x="362" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614614294640">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="362" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614605874714" />
+    <state x="362" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614614294640" />
     <state x="588" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614605191600">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="588" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1614605191600" />
+    <state x="0" y="0" width="581" height="864" key="find.popup" timestamp="1614687658845">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" width="581" height="864" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1614687658845" />
     <state x="572" y="340" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614605621649">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="572" y="340" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864@0.0.1536.864" timestamp="1614605621649" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fashion_mnist_classification_2/test.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
