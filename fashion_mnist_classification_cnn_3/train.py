@@ -5,13 +5,7 @@ from fashion_mnist_classification_cnn_3 import data_processing, model as m
 
 
 def train_model(file_name):
-    print(tf.version)
-    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
-    gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
-    tf.config.experimental.set_memory_growth(gpus[0], True)
-    tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.
-                                                            VirtualDeviceConfiguration(memory_limit=2048)])
 
     print("Get Data")
     (x_train, y_train), (x_test, y_test) = data_processing.get_data()
