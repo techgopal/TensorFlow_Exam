@@ -2,7 +2,8 @@
 # from fashion_mnist_classification_2 import train
 # from fashion_mnist_classification_cnn_3 import train
 # from sentiment_analysis_4 import train
-from sentiment_analysis_with_vector_layer_5 import train
+#from sentiment_analysis_with_vector_layer_5 import train
+from multi_class_text_classification_6 import  train
 import tensorflow as tf
 
 if __name__ == '__main__':
@@ -15,4 +16,4 @@ if __name__ == '__main__':
     # VirtualDeviceConfiguration(memory_limit=2048)])
     ##train.train_model("getting_started")
     ##test.test_model()
-    train.train_model("text_classification_5")
+    train.train_model("multi_class_text_classification_6")
