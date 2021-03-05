@@ -1,4 +1,4 @@
-# from hello_world import train,test
+# from hello_world_1 import train,test
 # from fashion_mnist_classification_2 import train
 # from fashion_mnist_classification_cnn_3 import train
 # from sentiment_analysis_4 import train

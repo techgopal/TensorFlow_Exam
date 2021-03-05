@@ -40,7 +40,7 @@ def train_model(file_name):
     # Train Model
     es_callback = tf.keras.callbacks.EarlyStopping()
     m.fit(train_ds, validation_data=val_ds, epochs=10,callbacks=[es_callback])
-    m.save('trained_model'+file_name)
+    m.save('trained_model/'+file_name)
 
     # Evaluate
     # text_batch, label_batch = next(iter(test_ds))
