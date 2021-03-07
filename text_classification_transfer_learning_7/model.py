@@ -7,10 +7,9 @@ def get_model():
     hub_layer = hub.KerasLayer(embedding, input_shape=[],
                                dtype=tf.string, trainable=True)
 
-    model = tf.keras.Sequential([
-        hub_layer,
-        tf.keras.layers.Dense(16, activation='relu'),
-        tf.keras.layers.Dense(1)
+    model = tf.keras.Sequential()
+    model.add(hub_layer)
+    model.add(tf.keras.layers.Dense(16, activation='relu'))
+    model.add(tf.keras.layers.Dense(1))
 
-    ])
     return model

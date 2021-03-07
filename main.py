@@ -4,7 +4,7 @@
 # from sentiment_analysis_4 import train
 #from sentiment_analysis_with_vector_layer_5 import train
 #from multi_class_text_classification_6 import  train
-from text_classification_transfer_learning_7 import train
+from  predict_fuel_efficiency_8 import train
 import tensorflow as tf
 
 if __name__ == '__main__':
@@ -17,4 +17,4 @@ if __name__ == '__main__':
     # VirtualDeviceConfiguration(memory_limit=2048)])
     ##train.train_model("getting_started")
     ##test.test_model()
-    train.train_model("text_classification_tl_7")
+    train.train_model("predict_fuel_efficiency_8")
