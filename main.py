@@ -5,7 +5,8 @@
 # from sentiment_analysis_with_vector_layer_5 import train
 # from multi_class_text_classification_6 import  train
 # from  predict_fuel_efficiency_8 import train
-from keras_auto_tuner_9 import train
+#from keras_auto_tuner_9 import train
+from image_segmentation_10 import train
 import tensorflow as tf
 
 if __name__ == '__main__':
@@ -18,4 +19,4 @@ if __name__ == '__main__':
     # VirtualDeviceConfiguration(memory_limit=2048)])
     ##train.train_model("getting_started")
     ##test.test_model()
-    train.train_model("keras_auto_tuner_9")
+    train.train_model("image_segmentation_10")

@@ -39,7 +39,7 @@ def train_model(file_name):
 
     # Train Model
     es_callback = tf.keras.callbacks.EarlyStopping()
-    m.fit(train_ds, validation_data=val_ds, epochs=10,callbacks=[es_callback])
+    m.fit(train_ds, validation_data=val_ds, epochs=10,callbacks=[es_callback],validation_split=)
     m.save('trained_model/'+file_name)
 
     # Evaluate
